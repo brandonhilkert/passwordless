@@ -1,0 +1,5 @@
+<h1>Login</h1>
+<%= form_for LoginSession.new do |f| %>
+  <%= f.text_field :email, placeholder: "Email" %>
+  <%= f.submit "Login" %>
+<% end %>

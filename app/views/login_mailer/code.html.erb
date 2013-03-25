@@ -1,0 +1,5 @@
+<p>Hi <%= @email %>,</p>
+<p>We received a request from this email to log in to log in to <%= ENV["DOMAIN"] %>. If you did not make this request, please ignore this email.</p>
+<p>To log in, please click the link below or copy the link into your browser:</p>
+<p><%= link_to login_sessions_code_url(@id, @code), login_sessions_code_url(@id, @code) %></p>
+

@@ -1,0 +1,12 @@
+
+en:
+  hello: "Hello world"
+  login_email_code: "Your log in link has been emailed to you."
+  login_bad_email: "That doesn't look like a valid email address."
+  login_invalid_link: "This is not a valid login link."
+  login_link_already_used: "This login link has already been used."
+  login_link_expired: "This login link has expired."
+  login_link_error: "That code could not be used. Please request another."
+  login_success: "Welcome back!"
+  requires_authentication: "Please login."
+
